@@ -532,6 +532,10 @@ button.mfp-close:hover {
 .services-box div:hover {
     background: #DE5340
 }
+.services-background {
+text-align: center
+}
+
 .services-box i {
     font-size: 36px
 }
