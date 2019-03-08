@@ -8,6 +8,8 @@ ul {
     padding: 0;
     margin: 0
 }
+
+
 .fill,
 .lines,
 .toggle-btn,
@@ -529,11 +531,16 @@ button.mfp-close:hover {
     -moz-transition: ease-out .3s;
     -o-transition: ease-out .3s
 }
+
+#service-con{
+    margin-bottom: 50px
+}
 .services-box div:hover {
     background: #DE5340
 }
 .services-background {
 text-align: center
+
 }
 
 .services-box i {
@@ -805,9 +812,22 @@ textarea {
 .contact-info ul li:last-child {
     margin: 0
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+
+}
+
+.flex-container div{
+ padding: 15px
+}
+
 .footer-background {
     background: #DE5340;
-    padding: 100px 30px;
+    padding: 20px 30px 40px;
     text-align: center;
     color: rgba(255, 255, 255, .7)
 }
