@@ -871,9 +871,9 @@ body {
 }
 
 .gallery {
-  -webkit-column-gap: 0.5;
-     -moz-column-gap: 0.5;
-          column-gap: 0.5;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
 }
 @media (min-width: 480px) {
   .gallery {
@@ -892,9 +892,9 @@ body {
 
 .gallery-image {
   position: relative;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 10px;
 }
+
 .gallery-image:before, .gallery-image:after {
   content: "";
   position: absolute;
